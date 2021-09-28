@@ -1,0 +1,226 @@
+[API Trapper      (2d74:3428)] Recording in 64-bit mode: C:\Program Files (x86)\Micro Focus\LoadRunner\bin\chrome\chrome.exe
+[API Trapper      (2404:1624)] Recording in 64-bit mode: C:\Program Files (x86)\Micro Focus\LoadRunner\bin\chrome\chrome.exe
+[Network Analyzer (2d74: 1b0)] ------------------------------------------------------------------------------------------
+[Network Analyzer (2d74: 1b0)] Load Network Traffic Analyzers:
+[Network Analyzer (2d74: 1b0)]     Analyzer Module: WPLUS (value=)
+[Network Analyzer (2d74: 1b0)]     Analyzer Module: WebBase (value=GetHttpProtocolAnalyzer:api_http_filter_x64.dll)
+[Network Analyzer (2d74: 1b0)]     + Network Analyzer: api_http_filter_x64.dll @ GetHttpProtocolAnalyzer Loaded!
+[Network Analyzer (2d74: 1b0)]     + Interception Auditors: WinInetWplusInterceptionAudit:api_http_filter_x64.dll
+[Network Analyzer (2d74: 1b0)]     Analyzer Module: QTWeb (value=GetWebSocketProtocolAnalyzer:WebSocketAnalyzer_x64.dll)
+[Network Analyzer (2d74: 1b0)]     + Network Analyzer: WebSocketAnalyzer_x64.dll @ GetWebSocketProtocolAnalyzer Loaded!
+[Network Analyzer (2d74: 1b0)]     Analyzer Module: local_server (value=)
+[Network Analyzer (2d74: 1b0)] ------------------------------------------------------------------------------------------
+[Network Analyzer (2d74:1f80)] Address lookup for EG5CG8352HZL = 192.168.1.4
+[Network Analyzer (2d74: 1b0)] Address lookup for EG5CG8352HZL = 192.168.1.4
+[Network Analyzer (2d74: 1b0)] Request Connection: Remote Server @ 172.217.21.10:443   (Service=)  (Sid=  1)  PROXIED!
+[Network Analyzer (2d74: 1b0)] Address lookup for EG5CG8352HZL = 192.168.1.4
+[Network Analyzer (2d74: 1b0)] Request Connection: Remote Server @ 216.239.38.21:80   (Service=)  (Sid=  2)  PROXIED!
+[Network Analyzer (2d74: 1b0)] Address lookup for EG5CG8352HZL = 192.168.1.4
+[Network Analyzer (2d74: 1b0)] Request Connection: Remote Server @ 216.239.38.21:443   (Service=)  (Sid=  3)  PROXIED!
+[Web Request      (2d74:1f80)] "GET /"   
+[Network Analyzer (2d74:1f80)]   (Sid:  2) Client -> Server @ : 382 bytes (Service=HTTP)
+[Network Analyzer (2d74:1f80)]   (Sid:  2) Server -> Client : 219 bytes  (Service=HTTP)
+[Network Analyzer (2d74:42b8)]   (Sid:  1) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.2, ciphers:ECDHE-ECDSA-AES128-GCM-SHA256)
+[Network Analyzer (2d74:42b8)]   (Sid:  1) Negotiate Client -> Proxy SSL Handshake (ssl:TLSv1.2, ciphers:ECDHE-RSA-AES128-GCM-SHA256)
+[Network Analyzer (2d74:4034)]   (Sid:  3) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.2, ciphers:ECDHE-RSA-AES128-GCM-SHA256)
+[Network Analyzer (2d74:4034)]   (Sid:  3) Negotiate Client -> Proxy SSL Handshake (ssl:TLSv1.2, ciphers:ECDHE-RSA-AES128-GCM-SHA256)
+[Web Request      (2d74:1f80)] "GET /translate_a/l?client=chrome&hl=en&key=dummytoken"   
+[Network Analyzer (2d74:1f80)]   (Sid:  1) Client -> Server @ : 287 bytes (SSL)(Service=HTTP)
+[Web Request      (2d74:1f80)] "GET /"   
+[Network Analyzer (2d74:1f80)]   (Sid:  3) Client -> Server @ : 386 bytes (SSL)(Service=HTTP)
+[Network Analyzer (2d74:1f80)]   (Sid:  1) Server -> Client : 1401 bytes (SSL) (Service=HTTP)
+[Network Analyzer (2d74:1f80)]   (Sid:  1) Server -> Client : 570 bytes (SSL) (Service=HTTP)
+[Network Analyzer (2d74:1f80)]   (Sid:  1) Server -> Client : 123 bytes (SSL) (Service=HTTP)
+[Network Analyzer (2d74:1f80)]   (Sid:  1) Server -> Client : 5 bytes (SSL) (Service=HTTP)
+[Network Analyzer (2d74:1f80)]   (Sid:  3) Server -> Client : 1401 bytes (SSL) (Service=HTTP)
+[Network Analyzer (2d74:1f80)]   (Sid:  3) Server -> Client : 111 bytes (SSL) (Service=HTTP)
+[Network Analyzer (2d74:1f80)]   (Sid:  3) Server -> Client : 5 bytes (SSL) (Service=HTTP)
+[Network Analyzer (2d74: 1b0)] Address lookup for EG5CG8352HZL = 192.168.1.4
+[Network Analyzer (2d74: 1b0)] Request Connection: Remote Server @ 142.250.203.227:443   (Service=)  (Sid=  4)  PROXIED!
+[Network Analyzer (2d74: 1b0)] Address lookup for EG5CG8352HZL = 192.168.1.4
+[Network Analyzer (2d74: 1b0)] Request Connection: Remote Server @ 142.250.203.227:443   (Service=)  (Sid=  5)  PROXIED!
+[Network Analyzer (2d74:11e8)]   (Sid:  4) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.2, ciphers:ECDHE-ECDSA-AES128-GCM-SHA256)
+[Network Analyzer (2d74:11e8)]   (Sid:  4) Negotiate Client -> Proxy SSL Handshake (ssl:TLSv1.2, ciphers:ECDHE-RSA-AES128-GCM-SHA256)
+[Network Analyzer (2d74:2d70)]   (Sid:  5) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.2, ciphers:ECDHE-ECDSA-AES128-GCM-SHA256)
+[Network Analyzer (2d74:2d70)]   (Sid:  5) Negotiate Client -> Proxy SSL Handshake (ssl:TLSv1.2, ciphers:ECDHE-RSA-AES128-GCM-SHA256)
+[Web Request      (2d74:1f80)] "GET /safebrowsing/csd/client_model_v5_variation_0.pb"   
+[Network Analyzer (2d74:1f80)]   (Sid:  4) Client -> Server @ : 277 bytes (SSL)(Service=HTTP)
+[Web Request      (2d74:1f80)] "GET /safebrowsing/csd/client_model_v5_ext_variation_0.pb"   
+[Network Analyzer (2d74:1f80)]   (Sid:  5) Client -> Server @ : 281 bytes (SSL)(Service=HTTP)
+[Network Analyzer (2d74:1f80)]   (Sid:  4) Server -> Client : 1401 bytes (SSL) (Service=HTTP)
+[Network Analyzer (2d74:1f80)]   (Sid:  4) Server -> Client : 1401 bytes (SSL) (Service=HTTP)
+[Network Analyzer (2d74:1f80)]   (Sid:  5) Server -> Client : 1401 bytes (SSL) (Service=HTTP)
+[Network Analyzer (2d74:1f80)]   (Sid:  4) Server -> Client : 1401 bytes (SSL) (Service=HTTP)
+[Network Analyzer (2d74:1f80)]   (Sid:  5) Server -> Client : 1401 bytes (SSL) (Service=HTTP)
+[Network Analyzer (2d74:1f80)]   (Sid:  4) Server -> Client : 1401 bytes (SSL) (Service=HTTP)
+[Network Analyzer (2d74:1f80)]   (Sid:  5) Server -> Client : 1401 bytes (SSL) (Service=HTTP)
+[Network Analyzer (2d74:1f80)]   (Sid:  4) Server -> Client : 1401 bytes (SSL) (Service=HTTP)
+[Network Analyzer (2d74:1f80)]   (Sid:  5) Server -> Client : 1401 bytes (SSL) (Service=HTTP)
+[Network Analyzer (2d74:1f80)]   (Sid:  4) Server -> Client : 1401 bytes (SSL) (Service=HTTP)
+[Network Analyzer (2d74:1f80)]   (Sid:  5) Server -> Client : 1401 bytes (SSL) (Service=HTTP)
+[Network Analyzer (2d74:1f80)]   (Sid:  4) Server -> Client : 1401 bytes (SSL) (Service=HTTP)
+[Network Analyzer (2d74:1f80)]   (Sid:  5) Server -> Client : 1401 bytes (SSL) (Service=HTTP)
+[Network Analyzer (2d74:1f80)]   (Sid:  4) Server -> Client : 1401 bytes (SSL) (Service=HTTP)
+[Network Analyzer (2d74:1f80)]   (Sid:  5) Server -> Client : 1401 bytes (SSL) (Service=HTTP)
+[Network Analyzer (2d74:1f80)]   (Sid:  4) Server -> Client : 1401 bytes (SSL) (Service=HTTP)
+[Network Analyzer (2d74:1f80)]   (Sid:  5) Server -> Client : 1401 bytes (SSL) (Service=HTTP)
+[Network Analyzer (2d74:1f80)]   (Sid:  4) Server -> Client : 1401 bytes (SSL) (Service=HTTP)
+[Network Analyzer (2d74:1f80)]   (Sid:  5) Server -> Client : 1401 bytes (SSL) (Service=HTTP)
+[Network Analyzer (2d74:1f80)]   (Sid:  4) Server -> Client : 1401 bytes (SSL) (Service=HTTP)
+[Network Analyzer (2d74:1f80)]   (Sid:  5) Server -> Client : 1401 bytes (SSL) (Service=HTTP)
+[Network Analyzer (2d74:1f80)]   (Sid:  4) Server -> Client : 1401 bytes (SSL) (Service=HTTP)
+[Network Analyzer (2d74:1f80)]   (Sid:  5) Server -> Client : 1401 bytes (SSL) (Service=HTTP)
+[Network Analyzer (2d74:1f80)]   (Sid:  4) Server -> Client : 1401 bytes (SSL) (Service=HTTP)
+[Network Analyzer (2d74:1f80)]   (Sid:  5) Server -> Client : 1401 bytes (SSL) (Service=HTTP)
+[Network Analyzer (2d74:1f80)]   (Sid:  4) Server -> Client : 1401 bytes (SSL) (Service=HTTP)
+[Network Analyzer (2d74:1f80)]   (Sid:  5) Server -> Client : 1401 bytes (SSL) (Service=HTTP)
+[Network Analyzer (2d74:1f80)]   (Sid:  4) Server -> Client : 1401 bytes (SSL) (Service=HTTP)
+[Network Analyzer (2d74:1f80)]   (Sid:  5) Server -> Client : 1401 bytes (SSL) (Service=HTTP)
+[Network Analyzer (2d74:1f80)]   (Sid:  4) Server -> Client : 1401 bytes (SSL) (Service=HTTP)
+[Network Analyzer (2d74:1f80)]   (Sid:  5) Server -> Client : 1401 bytes (SSL) (Service=HTTP)
+[Network Analyzer (2d74:1f80)]   (Sid:  4) Server -> Client : 1401 bytes (SSL) (Service=HTTP)
+[Network Analyzer (2d74:1f80)]   (Sid:  5) Server -> Client : 1401 bytes (SSL) (Service=HTTP)
+[Network Analyzer (2d74:1f80)]   (Sid:  4) Server -> Client : 1401 bytes (SSL) (Service=HTTP)
+[Network Analyzer (2d74:1f80)]   (Sid:  5) Server -> Client : 1401 bytes (SSL) (Service=HTTP)
+[Network Analyzer (2d74:1f80)]   (Sid:  4) Server -> Client : 1401 bytes (SSL) (Service=HTTP)
+[Network Analyzer (2d74:1f80)]   (Sid:  5) Server -> Client : 1401 bytes (SSL) (Service=HTTP)
+[Network Analyzer (2d74:1f80)]   (Sid:  4) Server -> Client : 1401 bytes (SSL) (Service=HTTP)
+[Network Analyzer (2d74:1f80)]   (Sid:  5) Server -> Client : 1401 bytes (SSL) (Service=HTTP)
+[Network Analyzer (2d74:1f80)]   (Sid:  4) Server -> Client : 1401 bytes (SSL) (Service=HTTP)
+[Network Analyzer (2d74:1f80)]   (Sid:  5) Server -> Client : 1401 bytes (SSL) (Service=HTTP)
+[Network Analyzer (2d74:1f80)]   (Sid:  4) Server -> Client : 1401 bytes (SSL) (Service=HTTP)
+[Network Analyzer (2d74:1f80)]   (Sid:  5) Server -> Client : 1401 bytes (SSL) (Service=HTTP)
+[Network Analyzer (2d74:1f80)]   (Sid:  4) Server -> Client : 1401 bytes (SSL) (Service=HTTP)
+[Network Analyzer (2d74:1f80)]   (Sid:  5) Server -> Client : 1401 bytes (SSL) (Service=HTTP)
+[Network Analyzer (2d74:1f80)]   (Sid:  4) Server -> Client : 1389 bytes (SSL) (Service=HTTP)
+[Network Analyzer (2d74:1f80)]   (Sid:  5) Server -> Client : 1401 bytes (SSL) (Service=HTTP)
+[Network Analyzer (2d74:1f80)]   (Sid:  4) Server -> Client : 1401 bytes (SSL) (Service=HTTP)
+[Network Analyzer (2d74:1f80)]   (Sid:  5) Server -> Client : 1388 bytes (SSL) (Service=HTTP)
+[Network Analyzer (2d74:1f80)]   (Sid:  4) Server -> Client : 1401 bytes (SSL) (Service=HTTP)
+[Network Analyzer (2d74:1f80)]   (Sid:  5) Server -> Client : 1401 bytes (SSL) (Service=HTTP)
+[Network Analyzer (2d74:1f80)]   (Sid:  4) Server -> Client : 1401 bytes (SSL) (Service=HTTP)
+[Network Analyzer (2d74:1f80)]   (Sid:  5) Server -> Client : 1401 bytes (SSL) (Service=HTTP)
+[Network Analyzer (2d74:1f80)]   (Sid:  4) Server -> Client : 1401 bytes (SSL) (Service=HTTP)
+[Network Analyzer (2d74:1f80)]   (Sid:  5) Server -> Client : 1401 bytes (SSL) (Service=HTTP)
+[Network Analyzer (2d74:1f80)]   (Sid:  4) Server -> Client : 1401 bytes (SSL) (Service=HTTP)
+[Network Analyzer (2d74:1f80)]   (Sid:  5) Server -> Client : 1401 bytes (SSL) (Service=HTTP)
+[Network Analyzer (2d74:1f80)]   (Sid:  4) Server -> Client : 1401 bytes (SSL) (Service=HTTP)
+[Network Analyzer (2d74:1f80)]   (Sid:  5) Server -> Client : 1401 bytes (SSL) (Service=HTTP)
+[Network Analyzer (2d74:1f80)]   (Sid:  4) Server -> Client : 1401 bytes (SSL) (Service=HTTP)
+[Network Analyzer (2d74:1f80)]   (Sid:  5) Server -> Client : 1401 bytes (SSL) (Service=HTTP)
+[Network Analyzer (2d74:1f80)]   (Sid:  4) Server -> Client : 1401 bytes (SSL) (Service=HTTP)
+[Network Analyzer (2d74:1f80)]   (Sid:  5) Server -> Client : 1401 bytes (SSL) (Service=HTTP)
+[Network Analyzer (2d74:1f80)]   (Sid:  4) Server -> Client : 1401 bytes (SSL) (Service=HTTP)
+[Network Analyzer (2d74:1f80)]   (Sid:  5) Server -> Client : 1401 bytes (SSL) (Service=HTTP)
+[Network Analyzer (2d74:1f80)]   (Sid:  4) Server -> Client : 1401 bytes (SSL) (Service=HTTP)
+[Network Analyzer (2d74:1f80)]   (Sid:  5) Server -> Client : 1401 bytes (SSL) (Service=HTTP)
+[Network Analyzer (2d74:1f80)]   (Sid:  4) Server -> Client : 1401 bytes (SSL) (Service=HTTP)
+[Network Analyzer (2d74:1f80)]   (Sid:  5) Server -> Client : 1401 bytes (SSL) (Service=HTTP)
+[Network Analyzer (2d74:1f80)]   (Sid:  4) Server -> Client : 1401 bytes (SSL) (Service=HTTP)
+[Network Analyzer (2d74:1f80)]   (Sid:  5) Server -> Client : 1401 bytes (SSL) (Service=HTTP)
+[Network Analyzer (2d74:1f80)]   (Sid:  4) Server -> Client : 1401 bytes (SSL) (Service=HTTP)
+[Network Analyzer (2d74:1f80)]   (Sid:  5) Server -> Client : 1401 bytes (SSL) (Service=HTTP)
+[Network Analyzer (2d74:1f80)]   (Sid:  4) Server -> Client : 1401 bytes (SSL) (Service=HTTP)
+[Network Analyzer (2d74:1f80)]   (Sid:  5) Server -> Client : 1401 bytes (SSL) (Service=HTTP)
+[Network Analyzer (2d74:1f80)]   (Sid:  4) Server -> Client : 1401 bytes (SSL) (Service=HTTP)
+[Network Analyzer (2d74:1f80)]   (Sid:  5) Server -> Client : 1401 bytes (SSL) (Service=HTTP)
+[Network Analyzer (2d74:1f80)]   (Sid:  4) Server -> Client : 1401 bytes (SSL) (Service=HTTP)
+[Network Analyzer (2d74:1f80)]   (Sid:  5) Server -> Client : 1401 bytes (SSL) (Service=HTTP)
+[Network Analyzer (2d74:1f80)]   (Sid:  4) Server -> Client : 1401 bytes (SSL) (Service=HTTP)
+[Network Analyzer (2d74:1f80)]   (Sid:  5) Server -> Client : 1401 bytes (SSL) (Service=HTTP)
+[Network Analyzer (2d74:1f80)]   (Sid:  4) Server -> Client : 1401 bytes (SSL) (Service=HTTP)
+[Network Analyzer (2d74:1f80)]   (Sid:  5) Server -> Client : 1401 bytes (SSL) (Service=HTTP)
+[Network Analyzer (2d74:1f80)]   (Sid:  4) Server -> Client : 1401 bytes (SSL) (Service=HTTP)
+[Network Analyzer (2d74:1f80)]   (Sid:  5) Server -> Client : 1401 bytes (SSL) (Service=HTTP)
+[Network Analyzer (2d74:1f80)]   (Sid:  4) Server -> Client : 1401 bytes (SSL) (Service=HTTP)
+[Network Analyzer (2d74:1f80)]   (Sid:  5) Server -> Client : 1401 bytes (SSL) (Service=HTTP)
+[Network Analyzer (2d74:1f80)]   (Sid:  4) Server -> Client : 1401 bytes (SSL) (Service=HTTP)
+[Network Analyzer (2d74:1f80)]   (Sid:  5) Server -> Client : 1401 bytes (SSL) (Service=HTTP)
+[Network Analyzer (2d74:1f80)]   (Sid:  4) Server -> Client : 1401 bytes (SSL) (Service=HTTP)
+[Network Analyzer (2d74:1f80)]   (Sid:  5) Server -> Client : 1401 bytes (SSL) (Service=HTTP)
+[Network Analyzer (2d74:1f80)]   (Sid:  4) Server -> Client : 1401 bytes (SSL) (Service=HTTP)
+[Network Analyzer (2d74:1f80)]   (Sid:  5) Server -> Client : 1401 bytes (SSL) (Service=HTTP)
+[Network Analyzer (2d74:1f80)]   (Sid:  4) Server -> Client : 545 bytes (SSL) (Service=HTTP)
+[Network Analyzer (2d74:1f80)]   (Sid:  5) Server -> Client : 1401 bytes (SSL) (Service=HTTP)
+[Network Analyzer (2d74:1f80)]   (Sid:  4) Server -> Client : 1401 bytes (SSL) (Service=HTTP)
+[Network Analyzer (2d74:1f80)]   (Sid:  5) Server -> Client : 545 bytes (SSL) (Service=HTTP)
+[Network Analyzer (2d74:1f80)]   (Sid:  4) Server -> Client : 1401 bytes (SSL) (Service=HTTP)
+[Network Analyzer (2d74:1f80)]   (Sid:  5) Server -> Client : 1401 bytes (SSL) (Service=HTTP)
+[Network Analyzer (2d74:1f80)]   (Sid:  4) Server -> Client : 1401 bytes (SSL) (Service=HTTP)
+[Network Analyzer (2d74:1f80)]   (Sid:  5) Server -> Client : 1401 bytes (SSL) (Service=HTTP)
+[Network Analyzer (2d74:1f80)]   (Sid:  4) Server -> Client : 1401 bytes (SSL) (Service=HTTP)
+[Network Analyzer (2d74:1f80)]   (Sid:  5) Server -> Client : 1401 bytes (SSL) (Service=HTTP)
+[Network Analyzer (2d74:1f80)]   (Sid:  4) Server -> Client : 1401 bytes (SSL) (Service=HTTP)
+[Network Analyzer (2d74:1f80)]   (Sid:  5) Server -> Client : 1401 bytes (SSL) (Service=HTTP)
+[Network Analyzer (2d74:1f80)]   (Sid:  4) Server -> Client : 1401 bytes (SSL) (Service=HTTP)
+[Network Analyzer (2d74:1f80)]   (Sid:  5) Server -> Client : 1401 bytes (SSL) (Service=HTTP)
+[Network Analyzer (2d74:1f80)]   (Sid:  4) Server -> Client : 1401 bytes (SSL) (Service=HTTP)
+[Network Analyzer (2d74:1f80)]   (Sid:  5) Server -> Client : 1401 bytes (SSL) (Service=HTTP)
+[Network Analyzer (2d74:1f80)]   (Sid:  4) Server -> Client : 1401 bytes (SSL) (Service=HTTP)
+[Network Analyzer (2d74:1f80)]   (Sid:  5) Server -> Client : 1401 bytes (SSL) (Service=HTTP)
+[Network Analyzer (2d74:1f80)]   (Sid:  4) Server -> Client : 1204 bytes (SSL) (Service=HTTP)
+[Network Analyzer (2d74:1f80)]   (Sid:  5) Server -> Client : 1401 bytes (SSL) (Service=HTTP)
+[Network Analyzer (2d74:1f80)]   (Sid:  5) Server -> Client : 1204 bytes (SSL) (Service=HTTP)
+[User action                 ] StartTransactionEvent TR01_Find Flights button [Network Analyzer (2d74: 1b0)] Address lookup for EG5CG8352HZL = 192.168.1.4
+[Network Analyzer (2d74: 1b0)] Request Connection: Remote Server @ 216.239.38.21:443   (Service=)  (Sid=  6)  PROXIED!
+[Network Analyzer (2d74: 1b0)] Address lookup for EG5CG8352HZL = 192.168.1.4
+[Network Analyzer (2d74: 1b0)] Request Connection: Remote Server @ 216.239.38.21:443   (Service=)  (Sid=  7)  PROXIED!
+[Network Analyzer (2d74: 1b0)] Address lookup for EG5CG8352HZL = 192.168.1.4
+[Network Analyzer (2d74: 1b0)] Request Connection: Remote Server @ 216.239.38.21:443   (Service=)  (Sid=  8)  PROXIED!
+[Web Request      (2d74:1f80)] "POST /reserve.php"   
+[Network Analyzer (2d74:1f80)]   (Sid:  3) Client -> Server @ : 591 bytes (SSL)(Service=HTTP)
+[Network Analyzer (2d74:29a0)]   (Sid:  6) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.2, ciphers:ECDHE-RSA-AES128-GCM-SHA256)
+[Network Analyzer (2d74:29a0)]   (Sid:  6) Negotiate Client -> Proxy SSL Handshake (ssl:TLSv1.2, ciphers:ECDHE-RSA-AES128-GCM-SHA256)
+[Network Analyzer (2d74:30c8)]   (Sid:  7) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.2, ciphers:ECDHE-RSA-AES128-GCM-SHA256)
+[Network Analyzer (2d74:30c8)]   (Sid:  7) Negotiate Client -> Proxy SSL Handshake (ssl:TLSv1.2, ciphers:ECDHE-RSA-AES128-GCM-SHA256)
+[Network Analyzer (2d74:1f80)]   (Sid:  3) Server -> Client : 1401 bytes (SSL) (Service=HTTP)
+[Network Analyzer (2d74:1f80)]   (Sid:  3) Server -> Client : 231 bytes (SSL) (Service=HTTP)
+[Network Analyzer (2d74:1f80)]   (Sid:  3) Server -> Client : 5 bytes (SSL) (Service=HTTP)
+[Network Analyzer (2d74:2a50)]   (Sid:  8) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.2, ciphers:ECDHE-RSA-AES128-GCM-SHA256)
+[Network Analyzer (2d74:2a50)]   (Sid:  8) Negotiate Client -> Proxy SSL Handshake (ssl:TLSv1.2, ciphers:ECDHE-RSA-AES128-GCM-SHA256)
+[User action                 ] EndTransactionEvent TR01_Find Flights button [User action                 ] StartTransactionEvent TR02_Click_Choose_This_Flight [Network Analyzer (2d74: 1b0)] Address lookup for EG5CG8352HZL = 192.168.1.4
+[Network Analyzer (2d74: 1b0)] Request Connection: Remote Server @ 216.239.38.21:443   (Service=)  (Sid=  9)  PROXIED!
+[Network Analyzer (2d74: 1b0)] Address lookup for EG5CG8352HZL = 192.168.1.4
+[Network Analyzer (2d74: 1b0)] Request Connection: Remote Server @ 216.239.38.21:443   (Service=)  (Sid= 10)  PROXIED!
+[Web Request      (2d74:1f80)] "POST /purchase.php"   
+[Network Analyzer (2d74:1f80)]   (Sid:  3) Client -> Server @ : 649 bytes (SSL)(Service=HTTP)
+[Network Analyzer (2d74:4124)]   (Sid:  9) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.2, ciphers:ECDHE-RSA-AES128-GCM-SHA256)
+[Network Analyzer (2d74:4124)]   (Sid:  9) Negotiate Client -> Proxy SSL Handshake (ssl:TLSv1.2, ciphers:ECDHE-RSA-AES128-GCM-SHA256)
+[Network Analyzer (2d74: 848)]   (Sid: 10) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.2, ciphers:ECDHE-RSA-AES128-GCM-SHA256)
+[Network Analyzer (2d74: 848)]   (Sid: 10) Negotiate Client -> Proxy SSL Handshake (ssl:TLSv1.2, ciphers:ECDHE-RSA-AES128-GCM-SHA256)
+[Network Analyzer (2d74:1f80)]   (Sid:  3) Server -> Client : 1401 bytes (SSL) (Service=HTTP)
+[Network Analyzer (2d74:1f80)]   (Sid:  3) Server -> Client : 224 bytes (SSL) (Service=HTTP)
+[Network Analyzer (2d74:1f80)]   (Sid:  3) Server -> Client : 5 bytes (SSL) (Service=HTTP)
+[Network Analyzer (2d74: 1b0)] Address lookup for EG5CG8352HZL = 192.168.1.4
+[Network Analyzer (2d74: 1b0)] Request Connection: Remote Server @ 142.250.203.238:443   (Service=)  (Sid= 11)  PROXIED!
+[Network Analyzer (2d74: fc4)]   (Sid: 11) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.2, ciphers:ECDHE-ECDSA-AES128-GCM-SHA256)
+[Network Analyzer (2d74: fc4)]   (Sid: 11) Negotiate Client -> Proxy SSL Handshake (ssl:TLSv1.2, ciphers:ECDHE-RSA-AES128-GCM-SHA256)
+[Web Request      (2d74:1f80)] "POST /tbproxy/af/query?client=Chromium"   
+[Network Analyzer (2d74:1f80)]   (Sid: 11) Client -> Server @ : 634 bytes (SSL)(Service=HTTP)
+[Network Analyzer (2d74:1f80)]   (Sid: 11) Server -> Client : 621 bytes (SSL) (Service=HTTP)
+[Network Analyzer (2d74:1f80)]   (Sid: 11) Server -> Client : 5 bytes (SSL) (Service=HTTP)
+[User action                 ] EndTransactionEvent TR02_Click_Choose_This_Flight [Network Analyzer (2d74:1f80)]   (Sid:  6) Connection Terminated (by Client)
+[Network Analyzer (2d74:1f80)]   (Sid:  7) Connection Terminated (by Client)
+[Network Analyzer (2d74:1f80)]   (Sid:  8) Connection Terminated (by Client)
+[API Trapper      (2b70: a3c)] Recording in 64-bit mode: C:\Program Files (x86)\Micro Focus\LoadRunner\bin\chrome\chrome.exe
+[User action                 ] StartTransactionEvent TR03_Purchase_Flight_Button [Network Analyzer (2d74: 1b0)] Address lookup for EG5CG8352HZL = 192.168.1.4
+[Network Analyzer (2d74: 1b0)] Request Connection: Remote Server @ 216.239.38.21:443   (Service=)  (Sid= 12)  PROXIED!
+[Web Request      (2d74:1f80)] "POST /confirmation.php"   
+[Network Analyzer (2d74:1f80)]   (Sid:  3) Client -> Server @ : 733 bytes (SSL)(Service=HTTP)
+[Web Request      (2d74:1f80)] "POST /tbproxy/af/upload?client=Chromium"   
+[Network Analyzer (2d74:1f80)]   (Sid: 11) Client -> Server @ : 814 bytes (SSL)(Service=HTTP)
+[Network Analyzer (2d74:1f80)]   (Sid: 11) Server -> Client : 704 bytes (SSL) (Service=HTTP)
+[Network Analyzer (2d74:1f80)]   (Sid: 11) Server -> Client : 5 bytes (SSL) (Service=HTTP)
+[Network Analyzer (2d74:40fc)]   (Sid: 12) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.2, ciphers:ECDHE-RSA-AES128-GCM-SHA256)
+[Network Analyzer (2d74:40fc)]   (Sid: 12) Negotiate Client -> Proxy SSL Handshake (ssl:TLSv1.2, ciphers:ECDHE-RSA-AES128-GCM-SHA256)
+[Network Analyzer (2d74:1f80)]   (Sid:  3) Server -> Client : 1401 bytes (SSL) (Service=HTTP)
+[Network Analyzer (2d74:1f80)]   (Sid:  3) Server -> Client : 248 bytes (SSL) (Service=HTTP)
+[Network Analyzer (2d74:1f80)]   (Sid:  3) Server -> Client : 5 bytes (SSL) (Service=HTTP)
+[Web Request      (2d74:1f80)] "POST /tbproxy/af/upload?client=Chromium"   
+[Network Analyzer (2d74:1f80)]   (Sid: 11) Client -> Server @ : 814 bytes (SSL)(Service=HTTP)
+[Network Analyzer (2d74:1f80)]   (Sid: 11) Server -> Client : 546 bytes (SSL) (Service=HTTP)
+[Network Analyzer (2d74:1f80)]   (Sid: 11) Server -> Client : 5 bytes (SSL) (Service=HTTP)
+[Network Analyzer (2d74:1f80)]   (Sid:  9) Connection Terminated (by Client)
+[Network Analyzer (2d74:1f80)]   (Sid: 10) Connection Terminated (by Client)
+[User action                 ] EndTransactionEvent TR03_Purchase_Flight_Button [User action                 ] StartTransactionEvent TR04_Text_Check [WebMultiInProcNotify_x64:  (2d74:2744)] Insert Text Check: "Thank you for your purchase today"
+[User action                 ] EndTransactionEvent TR04_Text_Check 

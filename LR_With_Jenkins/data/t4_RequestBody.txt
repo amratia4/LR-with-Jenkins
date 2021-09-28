@@ -1,0 +1,2 @@
+"_token=&inputName=Amr&address=Test+St.&city=Cairo&state=Cairo&zipCode=12345&cardType=visa&cred"
+"itCardNumber=&creditCardMonth=11&creditCardYear=2017&nameOnCard="
